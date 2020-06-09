@@ -1,0 +1,5 @@
+<input type="text" #code placeholder="Airport code"/><br>
+<input type="text" #name placeholder="Airport name"/><br>
+<button (click)="addAirport(code.value, name.value)">Add new airport</button>
+
+<app-airports></app-airports>

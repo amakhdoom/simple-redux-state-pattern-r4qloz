@@ -1,0 +1,5 @@
+<ul>
+  <li *ngFor="let airport of airportsObs | async">
+    {{airport.code}} - {{airport.name}}
+  </li>
+</ul>
